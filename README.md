@@ -1,16 +1,10 @@
 # GamesClientDev
-This is a simple interactive application built with PixiJS.
+This is a demo interactive application built with PixiJS.
 
-To run the application on your local machine, follow these steps:
+To run the application, run:
 
-1.  **Install Dependencies:** Open your terminal in the project's root directory and run:
     ```bash
-    npm install
+    npm install && npm start
     ```
 
-2.  **Start the Development Server:** After the installation is complete, run:
-    ```bash
-    npm start
-    ```
-
-This will automatically open the application in your default web browser.
+This will install dependencies and open the app in the web browser.
