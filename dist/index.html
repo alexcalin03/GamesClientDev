@@ -1,0 +1,14 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Games Client Dev</title><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><link rel="stylesheet" href="style.css"><style>body, html {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #f0f0f0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .game-container {
+        position: relative;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+      }</style><script defer="defer" src="bundle.js"></script></head><body><div id="game-container" class="game-container"><div id="ui-info" class="ui-panel info-panel"><div id="shapes-count-text" class="info-box">Shapes: 0</div><div id="shapes-area-text" class="info-box">Area: 0 px²</div></div><div id="ui-controls" class="ui-panel bottom-center"><div class="control-group"><label>SHAPES PER SECOND</label><div class="buttons"><button id="shapes-minus-btn">-</button> <span id="shapes-per-second-value">1</span> <button id="shapes-plus-btn">+</button></div></div><div class="control-group"><label>GRAVITY VALUE</label><div class="buttons"><button id="gravity-minus-btn">-</button> <span id="gravity-value">0.1</span> <button id="gravity-plus-btn">+</button></div></div></div></div></body></html>
